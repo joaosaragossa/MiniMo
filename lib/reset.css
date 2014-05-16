@@ -1,0 +1,145 @@
+
+/* Resets */
+
+  @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+  *,
+  *:before,
+  *:after
+  {
+    font-weight: normal;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    vertical-align: baseline;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  :focus
+  {
+    outline: none;
+  }
+
+  body
+  {
+    background-color: #eee;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+  }
+
+  ul,
+  li
+  {
+    font-size: 0;
+  }
+
+  table 
+  {
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+
+  caption, 
+  th, 
+  td 
+  {
+    text-align: left;
+    font-weight: normal;
+  }
+
+  blockquote:before, 
+  blockquote:after,
+  q:before, 
+  q:after 
+  {
+    content: "";
+  }
+
+  blockquote, 
+  q 
+  {
+    quotes: "" "";
+  }
+
+  a
+  {
+    color: #fff;
+    text-decoration: none;
+  }
+
+/* MenuDropDown */
+
+  .MiniModMenuDropDown
+  {
+    background-color: #ddd;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .MiniModMenuDropDown li
+  {
+    display: inline;
+    font-weight: 400;
+    position: relative;
+  }
+
+  .MiniModMenuDropDown li a
+  {
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .MiniModMenuDropDown li a:hover
+  {
+    background-color: rgba(255,255,255,0.5);
+  }
+
+  .MiniModMenuDropDown li ul
+  {
+    background-color: #ccc;
+    display: none;
+    left: 0;
+    position: absolute;
+  }
+
+  .MiniModMenuDropDown li ul li
+  {
+    display: inline;
+    position: relative;
+    width: auto;
+  }
+
+  .MiniModMenuDropDown li ul li a
+  {
+    border-bottom: 1px solid #bbb;
+    font-size: 12px;
+    font-weight: 300;
+    width: 200px;
+  }
+
+  .MiniModMenuDropDown li ul li a:hover
+  {
+    background-color: rgba(255,255,255,0.5);
+  }
+
+  .MiniModMenuDropDown li ul li ul
+  {
+    background-color: #bbb;
+    display: none;
+    left: 100%;
+    position: absolute;
+    top: -28px;
+  }
+
+  .MiniModMenuDropDown li ul li ul li a
+  {
+    border-bottom: 1px solid #aaa;
+  }
